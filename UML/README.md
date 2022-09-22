@@ -2,4 +2,4 @@
 
 Done with Modelio
 
-(without workspace because too many files in)
+(without workspace because too many files in, but in .zip)
