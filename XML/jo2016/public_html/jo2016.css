@@ -1,0 +1,11 @@
+tr
+{
+    border: 1px solid darkgray;
+    background-color: wheat;
+    width: 10%;
+}
+td,th
+{
+    border: 1px solid darkgray;
+    text-align: center;
+}
