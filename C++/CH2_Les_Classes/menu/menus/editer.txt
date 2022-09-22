@@ -1,0 +1,5 @@
+Annuler
+Retablir
+Copier
+Coller
+Retour

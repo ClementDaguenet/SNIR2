@@ -1,0 +1,5 @@
+Barre d outils
+Barre de menu
+Agrandir
+Reduire
+Retour
