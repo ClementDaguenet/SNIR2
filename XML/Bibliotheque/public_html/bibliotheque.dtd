@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT bibliotheque (allee+)>
+<!ELEMENT allee (rayon+,numeroAllee?)>
+<!ATTLIST allee numeroAllee (A | B ) "A">
+<!ELEMENT rayon (ouvrage*,numeroRayon?)>
+<!ATTLIST rayon numeroRayon (A | B ) "A">
+<!ELEMENT ouvrage (titre,auteur?,numeroOuvrage?)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT numeroOuvrage (#PCDATA)>
+<!ATTLIST ouvrage typeOuvrage (Littérature | ManuelScolaire | Périodique | ScienceEtTechnique ) "Littérature">

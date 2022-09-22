@@ -1,0 +1,53 @@
+body
+{
+    margin: 10px;
+    background-color: lightblue;
+}
+h1,h3
+{
+    text-decoration: underline;
+    color: darkblue;
+    text-align: center;
+}
+hr
+{
+    border : 2px double darkblue;
+}
+table
+{
+    margin: auto;
+    border: 2px ridge black;
+    border-collapse: collapse;
+    width: 80%;
+}
+tr,th
+{
+    border: 3px solid darkblue;
+    padding: 10px;
+    background-color: wheat;
+    width: 20%;
+}
+td
+{
+    border: 3px solid darkblue;
+    text-align: center;
+    padding: 10px;
+}
+td.titre
+{
+    background-color: #FFB6C1
+}
+td.auteur
+{
+    background-color: #32CD32
+}
+td.noauthor
+{
+    background-color: #02021e;
+    color: #02021e;
+}
+td.nonum
+{
+    background-color: #02021e;
+    color: #02021e;
+}

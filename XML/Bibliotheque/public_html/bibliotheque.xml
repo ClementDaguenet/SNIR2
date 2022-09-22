@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliotheque SYSTEM 'bibliotheque.dtd'>
+<?xml-stylesheet href="bibliotheque.xsl" type="text/xsl"?>
+<!--<?xml-stylesheet href="bibliotheque.css" type="text/css"?>-->
+
+<bibliotheque>
+    <allee numeroAllee="A">
+        <rayon numeroRayon="A">
+            <ouvrage typeOuvrage="Littérature">
+                <titre>Le Papillon Des Étoiles</titre>
+                <auteur>Bernard WERBER</auteur>
+            </ouvrage>
+            <ouvrage typeOuvrage="ManuelScolaire">
+                <titre>Les Formes De Base</titre>
+                <auteur>Daniele DUMONT</auteur>
+            </ouvrage>
+            <ouvrage typeOuvrage="ScienceEtTechnique">
+                <titre>XML et XSL : Les Feuilles De Style XML</titre>
+                <auteur>Cyril VINCENT</auteur>
+            </ouvrage>
+        </rayon>
+        <rayon numeroRayon="B">
+            <ouvrage typeOuvrage="Périodique">
+                <titre>LINUX Magazine</titre>
+                <numeroOuvrage>102</numeroOuvrage>
+            </ouvrage>
+            <ouvrage typeOuvrage="Périodique">
+                <titre>Closer</titre>
+            </ouvrage>
+            <ouvrage typeOuvrage="Littérature">
+                <titre>Harry Potter</titre>
+                <auteur>JK ROWLING</auteur>
+                <numeroOuvrage>1</numeroOuvrage>
+            </ouvrage>
+        </rayon>
+    </allee>
+    <allee numeroAllee="B">
+        <rayon numeroRayon="A">
+            <ouvrage typeOuvrage="Littérature">
+                <titre>Jeu De Nains</titre>
+                <auteur>Terry PRATCHETT</auteur>
+                <numeroOuvrage>31</numeroOuvrage>
+            </ouvrage>
+        </rayon>
+        <rayon numeroRayon="B">
+            <ouvrage typeOuvrage="Littérature">
+                <titre>Fondation</titre>
+                <auteur>Isaac ASIMOV</auteur>
+                <numeroOuvrage>2</numeroOuvrage>
+            </ouvrage>
+            <ouvrage typeOuvrage="ScienceEtTechnique">
+                <titre>Ajax, jQuery Et PHP</titre>
+                <auteur>Jean-Marie DEFRANCE</auteur>
+            </ouvrage>
+        </rayon>
+    </allee>
+</bibliotheque>
+
