@@ -21,6 +21,7 @@
 |Sup|[Les Héritages 2](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CHSUP_Heritage/ViveLaMusique)|ViveLaMusique|
 |4|||
 
+> Table of all controls done in **C++**.
 |TP     |Name        |What's into ?       |
 |-------|------------|--------------------|
 |1|[Projet_Banque](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/TPCTRL1_Projet_Banque/Banque)|Beautiful Bank with Terminal|
