@@ -50,6 +50,7 @@
 |1|[DistributeurAutomatiqueDeBillets](https://github.com/ClementDaguenet/SNIR2/tree/main/UML/DistributeurAutomatiqueDeBillets)|Modelio diagram|
 |2|[LesBarres](https://github.com/ClementDaguenet/SNIR2/tree/main/UML/LesBarres) |Modelio diagram|
 |3|[ViaducDeMillau](https://github.com/ClementDaguenet/SNIR2/tree/main/UML/ViaducDeMillau)|Modelio diagram|
+|4|[Equilibreuse](https://github.com/ClementDaguenet/SNIR2/tree/main/UML/Equilibreuse_CoursUML)|Equilibreuse diagram|
 ||||
 
 ## XML
