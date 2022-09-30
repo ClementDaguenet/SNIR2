@@ -35,8 +35,8 @@
 |TD|Name        |What's into ?                          |
 |-------|------------|--------------------|
 |1|[Fork](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD1)|Processus|
-|2|[Wait](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD2) |ForkWait|
-|3|Kill|Signaux|
+|2|[Wait](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD2)|ForkWait|
+|3|[Kill](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD3)|Signaux|
 |4|Pipe|Youtube|
 |5|Thread|Threads & Mutex|
 |6|Mémoire|Mémoire Partagée|
