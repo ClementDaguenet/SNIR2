@@ -37,7 +37,7 @@
 |1|[Fork](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD1)|Processus|
 |2|[Wait](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD2)|ForkWait|
 |3|[Kill](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD3)|Signaux|
-|4|Pipe|Youtube|
+|4|[Pipe](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD4)|Tubes & Popen|
 |5|Thread|Threads & Mutex|
 |6|Mémoire|Mémoire Partagée|
 |7|Files|File Message|
@@ -59,7 +59,7 @@
 |File|Name        |What's into ?                          |
 |-------|------------|--------------------|
 |1|[Bibliotheque](https://github.com/ClementDaguenet/SNIR2/tree/main/XML/Bibliotheque)|Library Aisle|
-|2|[jo2016](https://github.com/ClementDaguenet/SNIR2/tree/main/XML/jo2016) |Medal Podium|
+|2|[jo2016](https://github.com/ClementDaguenet/SNIR2/tree/main/XML/jo2016)|Medal Podium|
 ||||
 
 >*Done with stackedit.io*
