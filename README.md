@@ -18,7 +18,7 @@
 |1|[Les Flux](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH1_Les_Flux)|Medailles & References|
 |2|[Les Classes](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH2_Les_Classes) |Calculatrice_ipv4 & Menu|
 |3|[Les Héritages](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH3_LesHeritages)|Arrosage & Contenant & Lego & V1 of Equilibreuse|
-|Sup|[Les Héritages 2](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CHSUP_Heritage/ViveLaMusique)|ViveLaMusique|
+|Sup|[Les Héritages 2](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CHSUP_Heritage)|ViveLaMusique|
 |4|[Polymorphisme](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH4_Polymorphisme)|Lego2 & Chariot|
 |5|[]()||
 
@@ -39,9 +39,9 @@
 |2|[Wait](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD2)|ForkWait|
 |3|[Kill](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD3)|Signaux|
 |4|[Pipe](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD4)|Tubes & Popen|
-|5|[Thread]()|Threads & Mutex|
-|6|[Mémoire]()|Mémoire Partagée|
-|7|[Files]()|File Message|
+|5|[Thread](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD5)|Threads & Mutex|
+|6|[Mémoire](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD6)|Mémoire Partagée|
+|7|[Files](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD7)|File Message|
 |8|[]()||
 
 ## UML
