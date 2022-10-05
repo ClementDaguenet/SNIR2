@@ -15,10 +15,10 @@
 
 |Chapter|Name        |What's into ?       |
 |-------|------------|--------------------|
-|1|[Les Flux](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH1_Les_Flux)|Medailles & References|
-|2|[Les Classes](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH2_Les_Classes) |Calculatrice_ipv4 & Menu|
-|3|[Les Héritages](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH3_LesHeritages)|Arrosage & Contenant & Lego & V1 of Equilibreuse|
-|Sup|[Les Héritages 2](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CHSUP_Heritage)|ViveLaMusique|
+|1|[Flux](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH1_Les_Flux)|Medailles & References|
+|2|[Classes](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH2_Les_Classes) |Calculatrice_ipv4 & Menu|
+|3|[Héritages](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH3_LesHeritages)|Arrosage & Contenant & Lego & V1 of Equilibreuse|
+|Sup|[Héritages 2](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CHSUP_Heritage)|ViveLaMusique|
 |4|[Polymorphisme](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH4_Polymorphisme)|Lego2 & Chariot|
 |5|[Templates](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH5_Les_Templates)|Files & Iterateurs & Tri|
 |6|[]()||
