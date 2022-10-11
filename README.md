@@ -50,7 +50,7 @@
 |5|[Thread](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD5)|Threads & Mutex|
 |6|[Mémoire](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD6)|Mémoire Partagée|
 |7|[Files](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD7)|File Message|
-|8|[]()||
+|8|[Sockets](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/Sockets)|Client & Server coms|
 
 > Table of all IPCs controls done in **C**.
 
