@@ -21,7 +21,7 @@
 |Sup|[Héritages 2](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CHSUP_Heritage)|ViveLaMusique|
 |4|[Polymorphisme](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH4_Polymorphisme)|LesBarres & Chariot|
 |5|[Templates](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/CH5_Les_Templates)|Files & Iterateurs & Tri|
-|6|[]()||
+|6|[Synthès UML](https://github.com/ClementDaguenet/SNIR2/tree/main/C%2B%2B/TPSynthese_UML)|Test Alveoles Libres & Magasin de Rouleaux|
 
 > Table of all controls done in **C++**.
 
