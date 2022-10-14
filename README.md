@@ -4,13 +4,13 @@
 # Folders
 **Summary**
 
-- [C++](#cplusplus)
+- [C++](#cpp)
 - [ESLA](#esla)
 - [IPCs](#ipcs)
 - [UML](#uml)
 - [XML](#xml)
 
-## Cplusplus
+## Cpp
 > Table of all chapters done in **C++**.
 
 |Chapter|Name        |What's into ?       |
