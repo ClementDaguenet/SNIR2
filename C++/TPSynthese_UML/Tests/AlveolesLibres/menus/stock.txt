@@ -1,0 +1,5 @@
+Ajouter un Rouleau
+Sortir un Rouleau
+Visualiser Stock
+Quitter
+
