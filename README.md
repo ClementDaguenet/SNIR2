@@ -47,10 +47,10 @@
 |-------|------------|--------------------|
 |1|[Fork](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD1)|Processus|
 |2|[Wait](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD2)|ForkWait|
-|3|[Kill](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD3)|Signaux|
+|3|[Kill](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD3)|Signals|
 |4|[Pipe](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD4)|Tubes & Popen|
 |5|[Thread](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD5)|Threads & Mutex|
-|6|[Mémoire](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD6)|Mémoire Partagée|
+|6|[Mémoire](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD6)|Shared Memory|
 |7|[Files](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/TD7)|File Message|
 |8|[Sockets](https://github.com/ClementDaguenet/SNIR2/tree/main/IPCs/C/Sockets)|Client & Server coms|
 
