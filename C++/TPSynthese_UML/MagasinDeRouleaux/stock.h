@@ -1,0 +1,17 @@
+#ifndef STOCK_H
+#define STOCK_H
+
+#include "alveoleslibres.h"
+#include "rouleau.h"
+
+class Stock : public multiset <Rouleau>
+{
+public:
+  typedef Stock::iterator POSITION_STOCK;
+  void AjouterRouleau(const Rouleau _nouveau);
+  int RechercherSerie(POSITION_STOCK &_positionDebut);
+  void SortirRouleau(const POSITION_STOCK _positionRouleau);
+  void Visualiser() const;
+};
+
+#endif // STOCK_H
