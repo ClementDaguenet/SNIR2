@@ -38,7 +38,7 @@
 |Chapter|Name        |What's into ?       |
 |-------|------------|--------------------|
 |1|[Computer Networking](https://github.com/ClementDaguenet/SNIR2/tree/main/ESLA/Computer%20Networking)|Basics & Intermediate & Advanced|
-|2|||
+|2|[LAN Party](https://github.com/ClementDaguenet/SNIR2/tree/main/ESLA/LAN%20Party)|LAN in a gymnasium|
 
 ## IPCs
 > Table of all IPCs TDs done in **C**.
