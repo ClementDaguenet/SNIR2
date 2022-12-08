@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InterfaceServeurChat</class>
+ <widget class="QWidget" name="InterfaceServeurChat">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>544</width>
+    <height>581</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>InterfaceServeurChat</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #151515;</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>522</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QSpinBox" name="spinBox_Port">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 24px; color: #fff; font-weight: bold;</string>
+        </property>
+        <property name="minimum">
+         <number>1111</number>
+        </property>
+        <property name="maximum">
+         <number>8888</number>
+        </property>
+        <property name="value">
+         <number>8888</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_IP">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 24px; color: #fff; font-weight: bold;</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_Lancer">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 24px; color: #fff; font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Lancer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Quitter">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 24px; color: #fff; font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Quitter</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QTextEdit" name="textEdit_Receive">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 12px; color: #fff; font-weight: bold; border: 2px inset gray;</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_Send">
+      <property name="styleSheet">
+       <string notr="true">background-color: #151515; font-size: 12px; color: #fff; font-weight: bold; border: 2px inset gray;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_Envoyer">
+      <property name="styleSheet">
+       <string notr="true">background-color: #151515; font-size: 12px; color: #fff; font-weight: bold; border: 2px inset gray;</string>
+      </property>
+      <property name="text">
+       <string>Envoyer</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>521</width>
+     <height>218</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_Console">
+      <property name="styleSheet">
+       <string notr="true">background-color: #151515; font-size: 12px; color: #fff; font-weight: bold; border: 2px inset gray;</string>
+      </property>
+      <property name="text">
+       <string>Console</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="textEdit_Console">
+      <property name="styleSheet">
+       <string notr="true">background-color: #151515; font-size: 12px; color: #fff; font-weight: bold; border: 2px inset gray;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_Quitter</sender>
+   <signal>clicked()</signal>
+   <receiver>InterfaceServeurChat</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>432</x>
+     <y>75</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>538</x>
+     <y>6</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServeurWeb</class>
+ <widget class="QWidget" name="ServeurWeb">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>503</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ServeurWeb</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #151515</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit_Console">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>241</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold; border: 2px inset gray;</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_Donnees">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>70</y>
+     <width>241</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold; border: 2px inset gray;</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Console">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>58</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Console :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Donnees">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>50</y>
+     <width>58</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Données :</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>481</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QSpinBox" name="spinBox_Port">
+      <property name="styleSheet">
+       <string notr="true">background-color: #151515; font-size: 24px; color: #ffffff; font-weight: bold;</string>
+      </property>
+      <property name="minimum">
+       <number>1111</number>
+      </property>
+      <property name="maximum">
+       <number>8888</number>
+      </property>
+      <property name="value">
+       <number>8888</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_Lancer">
+      <property name="styleSheet">
+       <string notr="true">background-color: #151515; font-size: 24px; color: #ffffff; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Lancer</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_Quitter">
+      <property name="styleSheet">
+       <string notr="true">background-color: #151515; font-size: 24px; color: #ffffff; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Quitter</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_Quitter</sender>
+   <signal>clicked()</signal>
+   <receiver>ServeurWeb</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>395</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>403</x>
+     <y>53</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

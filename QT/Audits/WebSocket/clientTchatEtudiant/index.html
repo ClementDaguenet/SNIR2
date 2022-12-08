@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Interface client tchat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery.min.js" type="text/javascript"></script>
+        <script src="clienttchat.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <form id="formConnexion">
+            <input type="text" placeholder="Adresse Ip du serveur" id="ipServeur"  required="required" pattern="((^|\.)((25[0-5])|(2[0-4]\d)|(1\d\d)|([1-9]?\d))){4}$"/>
+            <input type="number" placeholder="Port du serveur" id="portServeur" min="1024" max="65536" required="required"/>
+            <br/>
+            <input type="text" id="pseudo" placeholder="Pseudo" required="required"/>
+            <input type="submit" value="connexion"/>
+        </form>
+        <form id="formDialogue">
+            <textarea id="affichage" cols="40" rows="10" readonly="readonly"></textarea>
+            <br/>
+            <input type="text" id="message" placeholder="Votre message" required="required"/>
+            <input type="submit" value="Envoyer" id="envoyer"/>
+            <input type="button" value="Déconnexion" id="deconnexion"/>
+            
+        </form>
+    </body>
+</html>
