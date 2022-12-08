@@ -1,0 +1,17 @@
+body{
+    background-color: #252525;
+}
+
+.clic{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.date{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 2px inset red;
+    width: 14%;
+}
