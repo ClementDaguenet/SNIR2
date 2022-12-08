@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AjoutDialog</class>
+ <widget class="QDialog" name="AjoutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>306</width>
+    <height>312</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #101010</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>240</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>281</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+   </property>
+   <property name="title">
+    <string>Ajout client</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>255</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_Nom">
+       <item>
+        <widget class="QLabel" name="label_Nom">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>Nom :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpace_Nom">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Nom">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold; border: 1px inset white;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_Prenom">
+       <item>
+        <widget class="QLabel" name="label_Prenom">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>Prénom :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_Prenom">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Prenom">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold; border: 1px inset white;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_Numero">
+       <item>
+        <widget class="QLabel" name="label_Numero">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>Numéro de compte :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_Numero">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Numero">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold; border: 1px inset white;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_Solde">
+       <item>
+        <widget class="QLabel" name="label_Solde">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>Solde :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_Solde">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Solde">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold; border: 1px inset white;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_Ville">
+       <item>
+        <widget class="QLabel" name="label_Ville">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>Ville :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_Ville">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Ville">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold; border: 1px inset white;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_Agence">
+       <item>
+        <widget class="QLabel" name="label_Agence">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>Agence :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_Agence">
+         <property name="styleSheet">
+          <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>AjoutDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>AjoutDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

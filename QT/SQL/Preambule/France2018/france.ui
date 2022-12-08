@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>France</class>
+ <widget class="QWidget" name="France">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>France</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #101010</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>541</width>
+     <height>224</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_Connexion">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Connexion</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Quitter">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 12px; color: #ffffff; font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Quitter</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_Nom">
+          <property name="styleSheet">
+           <string notr="true">background-color: #151515; font-size: 12px; color: #808080; font-weight: bold;</string>
+          </property>
+          <property name="text">
+           <string>Donnez le numéro du département</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_Nom">
+          <property name="styleSheet">
+           <string notr="true">background-color: #151515; font-size: 12px; color: #808080; font-weight: bold;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_Nom">
+          <property name="styleSheet">
+           <string notr="true">background-color: #151515; font-size: 12px; color: #808080; font-weight: bold;</string>
+          </property>
+          <property name="text">
+           <string>Nom de ce département ?</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Resultat">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 12px; color: #808080; font-weight: bold; font-style: italic;</string>
+        </property>
+        <property name="text">
+         <string>Nom du département</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QComboBox" name="comboBox_Regions">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 12px; color: #808080; font-weight: bold;</string>
+        </property>
+        <property name="currentText">
+         <string>Choisissez une région</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Choisissez une région</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_Departements">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 12px; color: #808080; font-weight: bold;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Choisissez un département</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_Villes">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151515; font-size: 12px; color: #808080; font-weight: bold;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Choisissez une ville</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_Quitter</sender>
+   <signal>clicked()</signal>
+   <receiver>France</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>411</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>423</x>
+     <y>50</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

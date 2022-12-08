@@ -1,0 +1,25 @@
+Connexion aux tables
+mariadb -u snir -psnir -h 172.18.58.8
+use france2018;
+
+Nom des régions
+select name from regions;
+
+Nom des régions par ordre de code de région
+select name from regions order by code;
+
+Nom des régions par ordre alphabétique
+select name from regions order by name;
+
+Nom des départements de la région avec code 52
+select name from departments where region_code = 52;
+
+Nom des villes de la région avec code 52
+select cities.name from cities, departments where departments.region_code = 52 and departments.code = cities.department_code;
+select cities.name from cities, departments, regions where regions.code = 52 and departments.code = cities.department_code and regions.code = departments.region_code;
+
+Nom de la région correspondant à la ville de Laval
+select regions.name from cities, departments, regions where regions.code = departments.region_code and departments.code = cities.department_code and cities.name like "Laval";
+
+Nom et code des départements ayant une ville nommée "Mons"
+select departments.name, departments.code from departments, cities where departments.code = cities.department_code and cities.name like "Mons";
