@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>map/bush.png</file>
+        <file>map/example.png</file>
+        <file>map/flower.png</file>
+        <file>map/house.png</file>
+        <file>map/letter_box.png</file>
+        <file>map/map.png</file>
+        <file>map/path_corner.png</file>
+        <file>map/path_corner_2.png</file>
+        <file>map/path_ns.png</file>
+        <file>map/path_ns_end.png</file>
+        <file>map/path_we.png</file>
+        <file>map/path_we_end.png</file>
+        <file>map/treasure.png</file>
+        <file>map/treasure_open.png</file>
+        <file>map/tree.png</file>
+        <file>map/water_corner.png</file>
+        <file>map/water_full.png</file>
+        <file>map/water_inner.png</file>
+        <file>map/water_side.png</file>
+        <file>players/A/center.png</file>
+        <file>players/A/down.png</file>
+        <file>players/A/left.png</file>
+        <file>players/A/right.png</file>
+        <file>players/A/up.png</file>
+        <file>players/B/center.png</file>
+        <file>players/B/down.png</file>
+        <file>players/B/left.png</file>
+        <file>players/B/right.png</file>
+        <file>players/B/up.png</file>
+        <file>players/C/center.png</file>
+        <file>players/C/down.png</file>
+        <file>players/C/left.png</file>
+        <file>players/C/right.png</file>
+        <file>players/C/up.png</file>
+        <file>players/D/center.png</file>
+        <file>players/D/down.png</file>
+        <file>players/D/left.png</file>
+        <file>players/D/right.png</file>
+        <file>players/D/up.png</file>
+    </qresource>
+</RCC>
